@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5CE208E167CFD3A008869CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CE208D167CFD3A008869CD /* UIKit.framework */; };
+		C5CE2090167CFD3A008869CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CE208F167CFD3A008869CD /* Foundation.framework */; };
+		C5CE2092167CFD3A008869CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CE2091167CFD3A008869CD /* CoreGraphics.framework */; };
+		C5CE2098167CFD3A008869CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5CE2096167CFD3A008869CD /* InfoPlist.strings */; };
+		C5CE209A167CFD3A008869CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CE2099167CFD3A008869CD /* main.m */; };
+		C5CE209E167CFD3A008869CD /* BSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CE209D167CFD3A008869CD /* BSAppDelegate.m */; };
+		C5CE20A0167CFD3A008869CD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CE209F167CFD3A008869CD /* Default.png */; };
+		C5CE20A2167CFD3A008869CD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CE20A1167CFD3A008869CD /* Default@2x.png */; };
+		C5CE20A4167CFD3A008869CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CE20A3167CFD3A008869CD /* Default-568h@2x.png */; };
+		C5CE20A7167CFD3A008869CD /* BSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CE20A6167CFD3A008869CD /* BSViewController.m */; };
+		C5CE20AA167CFD3A008869CD /* BSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5CE20A8167CFD3A008869CD /* BSViewController_iPhone.xib */; };
+		C5CE20AD167CFD3A008869CD /* BSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5CE20AB167CFD3A008869CD /* BSViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5CE2089167CFD3A008869CD /* Battery Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Battery Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CE208D167CFD3A008869CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C5CE208F167CFD3A008869CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5CE2091167CFD3A008869CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5CE2095167CFD3A008869CD /* Battery Saver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Battery Saver-Info.plist"; sourceTree = "<group>"; };
+		C5CE2097167CFD3A008869CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5CE2099167CFD3A008869CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5CE209B167CFD3A008869CD /* Battery Saver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Battery Saver-Prefix.pch"; sourceTree = "<group>"; };
+		C5CE209C167CFD3A008869CD /* BSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSAppDelegate.h; sourceTree = "<group>"; };
+		C5CE209D167CFD3A008869CD /* BSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
+		C5CE209F167CFD3A008869CD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C5CE20A1167CFD3A008869CD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C5CE20A3167CFD3A008869CD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C5CE20A5167CFD3A008869CD /* BSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSViewController.h; sourceTree = "<group>"; };
+		C5CE20A6167CFD3A008869CD /* BSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSViewController.m; sourceTree = "<group>"; };
+		C5CE20A9167CFD3A008869CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BSViewController_iPhone.xib; sourceTree = "<group>"; };
+		C5CE20AC167CFD3A008869CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BSViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5CE2086167CFD3A008869CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CE208E167CFD3A008869CD /* UIKit.framework in Frameworks */,
+				C5CE2090167CFD3A008869CD /* Foundation.framework in Frameworks */,
+				C5CE2092167CFD3A008869CD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5CE207E167CFD3A008869CD = {
+			isa = PBXGroup;
+			children = (
+				C5CE2093167CFD3A008869CD /* Battery Saver */,
+				C5CE208C167CFD3A008869CD /* Frameworks */,
+				C5CE208A167CFD3A008869CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5CE208A167CFD3A008869CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5CE2089167CFD3A008869CD /* Battery Saver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5CE208C167CFD3A008869CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5CE208D167CFD3A008869CD /* UIKit.framework */,
+				C5CE208F167CFD3A008869CD /* Foundation.framework */,
+				C5CE2091167CFD3A008869CD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5CE2093167CFD3A008869CD /* Battery Saver */ = {
+			isa = PBXGroup;
+			children = (
+				C5CE209C167CFD3A008869CD /* BSAppDelegate.h */,
+				C5CE209D167CFD3A008869CD /* BSAppDelegate.m */,
+				C5CE20A5167CFD3A008869CD /* BSViewController.h */,
+				C5CE20A6167CFD3A008869CD /* BSViewController.m */,
+				C5CE20A8167CFD3A008869CD /* BSViewController_iPhone.xib */,
+				C5CE20AB167CFD3A008869CD /* BSViewController_iPad.xib */,
+				C5CE2094167CFD3A008869CD /* Supporting Files */,
+			);
+			path = "Battery Saver";
+			sourceTree = "<group>";
+		};
+		C5CE2094167CFD3A008869CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5CE2095167CFD3A008869CD /* Battery Saver-Info.plist */,
+				C5CE2096167CFD3A008869CD /* InfoPlist.strings */,
+				C5CE2099167CFD3A008869CD /* main.m */,
+				C5CE209B167CFD3A008869CD /* Battery Saver-Prefix.pch */,
+				C5CE209F167CFD3A008869CD /* Default.png */,
+				C5CE20A1167CFD3A008869CD /* Default@2x.png */,
+				C5CE20A3167CFD3A008869CD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5CE2088167CFD3A008869CD /* Battery Saver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CE20B0167CFD3A008869CD /* Build configuration list for PBXNativeTarget "Battery Saver" */;
+			buildPhases = (
+				C5CE2085167CFD3A008869CD /* Sources */,
+				C5CE2086167CFD3A008869CD /* Frameworks */,
+				C5CE2087167CFD3A008869CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Battery Saver";
+			productName = "Battery Saver";
+			productReference = C5CE2089167CFD3A008869CD /* Battery Saver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5CE2080167CFD3A008869CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Shishir Mishra";
+			};
+			buildConfigurationList = C5CE2083167CFD3A008869CD /* Build configuration list for PBXProject "Battery Saver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5CE207E167CFD3A008869CD;
+			productRefGroup = C5CE208A167CFD3A008869CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5CE2088167CFD3A008869CD /* Battery Saver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5CE2087167CFD3A008869CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CE2098167CFD3A008869CD /* InfoPlist.strings in Resources */,
+				C5CE20A0167CFD3A008869CD /* Default.png in Resources */,
+				C5CE20A2167CFD3A008869CD /* Default@2x.png in Resources */,
+				C5CE20A4167CFD3A008869CD /* Default-568h@2x.png in Resources */,
+				C5CE20AA167CFD3A008869CD /* BSViewController_iPhone.xib in Resources */,
+				C5CE20AD167CFD3A008869CD /* BSViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5CE2085167CFD3A008869CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CE209A167CFD3A008869CD /* main.m in Sources */,
+				C5CE209E167CFD3A008869CD /* BSAppDelegate.m in Sources */,
+				C5CE20A7167CFD3A008869CD /* BSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5CE2096167CFD3A008869CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5CE2097167CFD3A008869CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C5CE20A8167CFD3A008869CD /* BSViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5CE20A9167CFD3A008869CD /* en */,
+			);
+			name = BSViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C5CE20AB167CFD3A008869CD /* BSViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5CE20AC167CFD3A008869CD /* en */,
+			);
+			name = BSViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5CE20AE167CFD3A008869CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5CE20AF167CFD3A008869CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5CE20B1167CFD3A008869CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Battery Saver/Battery Saver-Prefix.pch";
+				INFOPLIST_FILE = "Battery Saver/Battery Saver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C5CE20B2167CFD3A008869CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Battery Saver/Battery Saver-Prefix.pch";
+				INFOPLIST_FILE = "Battery Saver/Battery Saver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5CE2083167CFD3A008869CD /* Build configuration list for PBXProject "Battery Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CE20AE167CFD3A008869CD /* Debug */,
+				C5CE20AF167CFD3A008869CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5CE20B0167CFD3A008869CD /* Build configuration list for PBXNativeTarget "Battery Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CE20B1167CFD3A008869CD /* Debug */,
+				C5CE20B2167CFD3A008869CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5CE2080167CFD3A008869CD /* Project object */;
+}
