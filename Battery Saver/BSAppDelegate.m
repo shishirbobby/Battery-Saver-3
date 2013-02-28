@@ -7,11 +7,12 @@
 //
 
 #import "BSAppDelegate.h"
+#import "InAppPurchaseManager.h"
 
-#import "BSViewController.h"
-
+//#import "BSViewController.h"
+#import "BSMainViewController.h"
 @implementation BSAppDelegate
-
+@synthesize iapManager;
 - (void)dealloc
 {
     [_window release];
@@ -21,12 +22,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    sleep(3);
+    iapManager = [[InAppPurchaseManager alloc] init];
+    [iapManager loadStore];
+
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[[BSViewController alloc] initWithNibName:@"BSViewController_iPhone" bundle:nil] autorelease];
+        self.viewController = [[[BSMainViewController alloc] initWithNibName:@"BSMainViewController" bundle:nil] autorelease];
     } else {
-        self.viewController = [[[BSViewController alloc] initWithNibName:@"BSViewController_iPad" bundle:nil] autorelease];
+        self.viewController = [[[BSMainViewController alloc] initWithNibName:@"BSMainViewController~iPad" bundle:nil] autorelease];
     }
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];

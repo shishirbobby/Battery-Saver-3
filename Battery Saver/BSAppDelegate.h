@@ -7,13 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@class BSViewController;
+@class InAppPurchaseManager;
+//@class BSViewController;
+@class BSMainViewController;
 
 @interface BSAppDelegate : UIResponder <UIApplicationDelegate>
+{
 
+}
+@property (strong, nonatomic) InAppPurchaseManager *iapManager;
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) BSViewController *viewController;
+//@property (strong, nonatomic) BSViewController *viewController;
+@property (strong, nonatomic) BSMainViewController *viewController;
+
 
 @end
